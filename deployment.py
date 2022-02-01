@@ -36,11 +36,11 @@ def model(review):
     x2=np.array([2])
     
     if np.array_equal(x,x1):
-        print("This is a Moderate review.")
+        return"This is a Moderate review."
     elif np.array_equal(x,x2):
-        print("This is a Good review!")
+        return"This is a Good review!"
     else:
-        print("This is a Bad review ")
+        return"This is a Bad review "
     
    
 def main():
