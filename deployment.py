@@ -20,8 +20,8 @@ from nltk.stem.porter import PorterStemmer
 
 ##############    TITLE AND CONTENT   ###################################################
 st.title("Product analysis ")
-st.write(" The project objective is to evaluate and analyze every review given by the customers on floating bookshelf by performing text mining and text processing ." \n "In order to evaluate the type of review request you to enter the review in the below text field and click on the button.")
-
+st.write(" The project objective is to evaluate and analyze every review given by the customers on floating bookshelf by performing text mining and text processing.")
+st.write( "In order to evaluate the type of review request you to enter the review in the below text field and click on the button.")
 st.image("bookshelf.jpg", width=700)  ##### Image below title
 
 
