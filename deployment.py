@@ -19,8 +19,8 @@ from nltk.stem.porter import PorterStemmer
 
 
 ##############    TITLE AND CONTENT   ###################################################
-st.title("To extract  reviews of a product from AMAZON and perform sentiment analysis ")
-st.write("Logistic modeling approach has been adapted to perform sentiment analysis. ")
+st.title("Product analysis ")
+st.write(" The project objective is to evaluate and analyze every review given by the customers on floating bookshelf by performing text mining and text processing ." \n "In order to evaluate the type of review request you to enter the review in the below text field and click on the button.")
 
 st.image("bookshelf.jpg", width=700)  ##### Image below title
 
