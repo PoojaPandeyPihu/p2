@@ -78,7 +78,7 @@ if __name__=='__main__':
 st.sidebar.title("**About**")  ######### ABOUT Section
 
 st.sidebar.header("Guided by:- Mr. Varun")
-st.sidebar.title("*****")
+#st.sidebar.title("*****")
 st.sidebar.title("Made With Streamlit by")
 st.sidebar.image("streamlitlogo1.png", width=180)    ####  Displaying streamlit logo
 st.sidebar.header("P-88 Group 5:")
