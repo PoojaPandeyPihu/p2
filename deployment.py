@@ -58,7 +58,7 @@ def main():
     
     results=""
     if st.button("Click Here"):
-        results=model_test(review)
+        results=model(review)
       
     st.success(results)
     
