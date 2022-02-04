@@ -25,7 +25,7 @@ st.sidebar.image("sentiment-analysis.png", width=300)  ####Image for sidebar
 st.sidebar.write("To extract reviews of a product from AMAZON and perform sentiment analysis")
 
 vec_file=pickle.load(open("vector.pkl","rb"))
-model_file=pickle.load(open("mod.pkl","rb"))
+model_file=pickle.load(open("model_test.pkl","rb"))
 
 def predict_sentiment(sample_review):
     sample_review = re.sub(pattern='[^a-zA-Z]',repl=' ', string = sample_review)
