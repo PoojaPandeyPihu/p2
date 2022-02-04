@@ -27,7 +27,7 @@ st.image("bookshelf.jpg", width=700)  ##### Image below title
 
 ##########################     SIDEBAR HEADER CONTENT    ########################################
 st.sidebar.image("sentiment-analysis.png", width=300)  ####Image for sidebar
-st.sidebar.write("To extract reviews of a product from AMAZON and perform sentiment analysis")
+#st.sidebar.write("To extract reviews of a product from AMAZON and perform sentiment analysis")
 
 
 vec_file=pickle.load(open('vectorizer_test.pkl','rb'))
